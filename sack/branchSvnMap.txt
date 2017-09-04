@@ -1,0 +1,8 @@
+BTS_SC_DSP/branches/p_nyquist ====> https://beisop60.china.nsn-net.net/isource/svnroot/BTS_SC_DSP/branches/p_nyquist
+     head file path           ====> C_Application/SC_UP/source/include/TtiTrace_Env/SS_MacHs/SMacHsTtiTraceBitField.h
+	 
+BTS_SC_DSP/trunk/workarea     ====> https://beisop60.china.nsn-net.net/isource/svnroot/BTS_SC_DSP/trunk/workarea
+	 head file path           ====> C_Application/SC_DSP/include/TtiTrace_Env/SS_MacHs/SMacHsTtiTraceBitField.h
+	 
+BTS_SC_DSP/branches/SRAN_branch ====> https://beisop60.china.nsn-net.net/isource/svnroot/BTS_SC_DSP/branches/SRAN_branch
+     head file path             ====> C_Application/SC_UP/source/include/TtiTrace_Env/SS_MacHs/SMacHsTtiTraceBitField.h

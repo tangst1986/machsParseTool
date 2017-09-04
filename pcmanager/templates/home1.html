@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title> Test Pc Manager </title>
+    </head>
+
+    <body>
+        <div id="content">
+            <table border = "1" width="600">
+                <tr>
+                <td colspan="6" ><font color="blue">Nyquist</font></td>
+                </tr>
+                <td>IP</td>
+                <td>status</td>
+                <td>username</td>
+                <td>lastuser</td>
+                <td>lastlogintime</td>
+
+                {% for entry in nyquist_entries %}
+                <tr>
+                <td>{{ entry["ip"] }}</td>
+                <td>{{ entry["status"] }}</td>
+                <td>{{ entry["username"] }}</td>
+                <td>{{ entry["lastuser"] }}</td>
+                <td>{{ entry["lastlogintime"] }}</td>
+                </tr>
+                {% end %}
+            </table>
+        </div>
+
+        <div id="content">
+            <table border = "1" width="600">
+                <tr>
+                <td colspan="6" ><font color="blue">Faraday</font></td>
+                </tr>
+                <td>IP</td>
+                <td>status</td>
+                <td>username</td>
+                <td>lastuser</td>
+                <td>lastlogintime</td>
+
+                {% for entry in faraday_entries %}
+                <tr>
+                <td>{{ entry["ip"] }}</td>
+                <td>{{ entry["status"] }}</td>
+                <td>{{ entry["username"] }}</td>
+                <td>{{ entry["lastuser"] }}</td>
+                <td>{{ entry["lastlogintime"] }}</td>
+                </tr>
+            {% end %}
+            </table>
+
+        </div>
+        <div id="content">
+            <table border = "1" width="600">
+                <tr>
+                <td colspan="6" ><font color="blue">FSMr4</font></td>
+                </tr>
+                <td>IP</td>
+                <td>status</td>
+                <td>username</td>
+                <td>lastuser</td>
+                <td>lastlogintime</td>
+
+                {% for entry in fsmr4_entries %}
+                <tr>
+                <td>{{ entry["ip"] }}</td>
+                <td>{{ entry["status"] }}</td>
+                <td>{{ entry["username"] }}</td>
+                <td>{{ entry["lastuser"] }}</td>
+                <td>{{ entry["lastlogintime"] }}</td>
+                </tr>
+            {% end %}
+            </table>
+
+        </div>
+
+    </body>
+
+</html>
